@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="realtime_node" name="realtime_node" type="realtime_node" output="screen">
+        <param name="image_topic_name" type="string" value="/camera/image_raw"/>
+        <param name="debug_image" type="bool" value="true"/>
+    </node>
+</launch>
